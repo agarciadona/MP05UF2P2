@@ -65,7 +65,7 @@ public class HashTable {
     public String get(String key) {
         int hash = getHash(key);
         if(entries[hash] != null) {
-        HashTable.HashEntry temp = entries[hash];
+            HashEntry temp = entries[hash];
 
             //error: ha de comprovar si es nulo porque si pasa al siguiente y no existe salta nullpòinter
             while( !temp.key.equals(key) && temp.next != null)

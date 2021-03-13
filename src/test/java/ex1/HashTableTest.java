@@ -1,13 +1,12 @@
 package ex1;
 
-import ex1.HashTable;
 import org.junit.jupiter.api.Assertions;
 
 class HashTableTest {
 
 @org.junit.jupiter.api.Test
 void put(){
-    ex1.HashTable ht = new ex1.HashTable();
+    HashTable ht = new HashTable();
 
     //Comprovar si es buit.
     Assertions.assertEquals( "", ht.toString() );
@@ -58,9 +57,10 @@ void get(){
 
 @org.junit.jupiter.api.Test
 void drop(){
-    //es comentat perque sino maven en dona problemes (ex4)
-   /* HashTable ht = new HashTable();
 
+   HashTable ht = new HashTable();
+    //es comentat perque sino maven en dona problemes (ex4)
+    /*
     ht.put("0", "0");
     Assertions.assertEquals( "\n bucket[0] = [0, 0]", ht.toString() );
 

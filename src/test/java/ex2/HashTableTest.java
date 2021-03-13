@@ -58,7 +58,8 @@ void get(){
 @org.junit.jupiter.api.Test
 void drop(){
     //es comentat perque sino maven en dona problemes (ex4)
-   /* HashTable ht = new HashTable();
+    /*
+   HashTable ht = new HashTable();
 
     ht.put("0", "0");
     Assertions.assertEquals( "\n bucket[0] = [0, 0]", ht.toString() );
@@ -68,8 +69,8 @@ void drop(){
 
     //Intentem borrar el primer valor y després mirem si el valor que hi ha es el següent.
     ht.drop("0");
-    Assertions.assertEquals("\n bucket[0] = [11, 11]",ht.toString());*/
-
+    Assertions.assertEquals("\n bucket[0] = [11, 11]",ht.toString());
+    */
 }
 
 
